@@ -14,6 +14,10 @@ body {
   justify-content: center;
 }
 
+.world img {
+  width: 500px;
+}
+
 h1,
 h3 {
   color: #565c87;
