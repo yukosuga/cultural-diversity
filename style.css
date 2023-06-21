@@ -1,62 +1,69 @@
 body {
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .topImage {
-    width: 100%;
+  width: 100%;
 }
 
 .world {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-h1, h3 {
-    color: #565c87;
-    text-align: center;
+h1,
+h3 {
+  color: #565c87;
+  text-align: center;
 }
 
 h2 {
-    color: #c97864;
-    text-align: center;
+  color: #c97864;
+  text-align: center;
 }
 
 .container {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 80px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 80px;
 }
 
-.container div {
-    width: 400px;
+section {
+    width: 450px;
     background-color: #faf1f0;
+  }
+  
+section img {
+    width: 150px;
+    display: block;
 }
 
 .flag {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 ol {
-    margin-left: 20px;
+  margin-left: 15px;
 }
 
 li {
-    font-size: 18px;
-    font-weight: bold;
-    color: #c97864;
-}
-
-.ja {
-    font-size: 19px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #c97864;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+.ja {
+  font-size: 19px;
 }
