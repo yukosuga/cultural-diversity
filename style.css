@@ -15,7 +15,13 @@ body {
 }
 
 .world img {
-  width: 30%;
+  width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .world img {
+    width: 80%;
+  }
 }
 
 h1,
